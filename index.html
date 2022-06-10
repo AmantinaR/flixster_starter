@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flixster Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="images/favicon.ico" rel="shortcut icon" type="images/x-icon" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="leftNav">
+            <h1>Flixster Movies &#127871;</h1>
+            <button class="current">See Current Movies</button>
+        </div>
+        <div class="searchArea">
+            <form class="form" action="">
+                <div class="input-area">
+                    <label for="input">Enter a movie keyword here:</label>
+                    <input type="text" required id="input" name="input">
+                    <input class="submit" type="submit" id="submit" value="&#128270;">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <div class="mainContent">
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              
+            </div>
+        </div>
+        <div class="headerArea"></div>
+        <div class="movieArea">
+        </div>
+        <div class="more-area">
+            <img class="logo" src="images/logo.svg" alt="MovieDB Logo with blue and green gradient font">
+            <button class="more">See more movies</button>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
