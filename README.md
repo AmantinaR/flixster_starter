@@ -39,9 +39,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://amantinar.gith
 - [x] Back to Top Button
 
 ### Walkthrough Video
-
-<video src='https://www.youtube.com/watch?v=_lBQLgi70ns' width=180/>
-`ADD_EMBEDDED_CODE_HERE`
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M2j20ECYZEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Reflection
 
