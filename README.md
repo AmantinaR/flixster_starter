@@ -39,7 +39,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://amantinar.gith
 - [x] Back to Top Button
 
 ### Walkthrough Video
-[![Project1: Flixster](https://imgur.com/a/YhBLmBt)](https://www.youtube.com/watch?v=M2j20ECYZEU "Project 1: Flixster")
+[![Project1: Flixster](https://imgur.com/uCNyuhH)](https://www.youtube.com/watch?v=M2j20ECYZEU "Project 1: Flixster")
 
 ### Reflection
 
