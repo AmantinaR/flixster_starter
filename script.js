@@ -9,12 +9,12 @@ let currentSearch = "";
 //DOM OBJECTS
 const movieForm = document.querySelector(".form");
 const movieMain = document.querySelector(".mainContent");
-const movieArea = document.querySelector(".movieArea");
-const movieMoreBtn = document.querySelector(".more");
+const movieArea = document.querySelector("#movies-grid");
+const movieMoreBtn = document.querySelector(".load-more-movies-btn");
 const movieMoreDiv = document.querySelector(".more-area");
-const movieCurrent = document.querySelector(".current");
+const movieCurrent = document.querySelector(".close-search-btn");
 const movieHeader = document.querySelector(".headerArea");
-const movieInput = document.querySelector("#input");
+const movieInput = document.querySelector("#search-input");
 const modal = document.querySelector(".modal");
 const close = document.querySelector(".close");
 const modalContent = document.querySelector(".modal-content");
@@ -81,10 +81,10 @@ function displayResults(responseData) {
         //handle if no poster path
         let src = element.poster_path ? `https://image.tmdb.org/t/p/w300${element.poster_path}` : "images/no-img.png";
         movieArea.innerHTML += `
-            <div class="movie" movieId="${element.id} id="id${element.id}">
-                <img class="posterImg" src=${src} alt="Movie poster image"/>
-                <h2>${element.title}</h2>
-                <p>&#11088;   ${element.vote_average}/10</p>
+            <div class="movie-card" movieId="${element.id} id="id${element.id}">
+                <img class="movie-poster" src=${src} alt="Movie poster image"/>
+                <h2 class="movie-title">${element.title}</h2>
+                <p class="movie-votes">&#11088;   ${element.vote_average}/10</p>
                 <button class="open" movieId="${element.id}">See movie details</button>
             </div>
         `;
@@ -116,6 +116,7 @@ function handleFormSubmit(evt) {
 results, otherwise it gets more now playing results. This function is fired when the Show More Movies 
 button is clicked*/
 function handleMore(evt) {
+    evt.preventDefault();
     page++;
     if(currentSearch !== "") {
         getResults(currentSearch);

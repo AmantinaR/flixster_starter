@@ -49,7 +49,7 @@ button {
     align-items: center;
     justify-content: space-between;
 }
-.current{
+.close-search-btn{
     margin-left: 10px;
 }
 .submit {
@@ -63,7 +63,7 @@ button {
     border-radius: 3px;
     cursor: pointer;
 }
-#input {
+#search-input {
     font-size: 16px;
     padding: 3px
 }
@@ -72,14 +72,14 @@ button {
 .mainContent {
     padding: 10px
 }
-.movieArea {
+#movies-grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
-.movie {
+.movie-card {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -93,14 +93,14 @@ button {
     padding-bottom: 10px;
     box-shadow: 4px 4px 10px rgb(0 0 0 / 30%);
 }
-.movie:hover {
+.movie-card:hover {
     box-shadow: 6px 6px 16px rgb(0 0 0 / 45%);
     transform: translateY(-8px);
 }
-.posterImg {
+.movie-poster {
     max-height: 450;
 }
-.movie > h2 {
+.movie-card > h2 {
     margin-bottom: -6px;
 }
 

@@ -15,13 +15,13 @@
     <div class="navbar">
         <div class="leftNav">
             <h1>Flixster Movies &#127871;</h1>
-            <button class="current">See Current Movies</button>
+            <button class="close-search-btn">See Current Movies</button>
         </div>
         <div class="searchArea">
             <form class="form" action="">
                 <div class="input-area">
                     <label for="input">Enter a movie keyword here: </label>
-                    <input type="text" required id="input" name="input">
+                    <input type="text" required id="search-input" name="input">
                     <input class="submit" type="submit" id="submit" value="&#128270;">
                 </div>
             </form>
@@ -36,11 +36,11 @@
             </div>
         </div>
         <div class="headerArea"></div>
-        <div class="movieArea">
+        <div id="movies-grid">
         </div>
         <div class="more-area">
             <img class="logo" src="images/logo.svg" alt="MovieDB Logo with blue and green gradient font">
-            <button class="more">See more movies</button>
+            <button class="load-more-movies-btn">See more movies</button>
         </div>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
     </div>
