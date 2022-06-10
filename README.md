@@ -1,10 +1,8 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: Amantina Rossi
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: 8 hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -50,11 +48,11 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The labs greatly helped me to complete the project. Practicing with HTML and CSS on the personal website greatly aided my ability to create a clean UI. The practice with JavaScript on the report card lab was challenging but reinforced my ability to create a dynamic website. And the API practice with the Gif website was extremely useful because I knew the exact steps to fetch data from the API. Overall, the 3 labs from this week helped me feel completely prepared for this project. 
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time, I would love to explore the other API endpoints to fetch additional data to display on my website. For example, MovieDB has a get reviews and get recommendations endpoints that look really interesting. I also hope to learn more in the future about animations when a user scrolls on the page. I tried it out but didn't have time to fully understand and implement it. 
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
