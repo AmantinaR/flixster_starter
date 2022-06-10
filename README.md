@@ -56,12 +56,12 @@ If I had more time, I would love to explore the other API endpoints to fetch add
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
----Will update after demo
+Everything went well with my demo. It was great seeing the cool extra features my peers implemented. For example, I really liked the use of gradients. I also want to try out a sticky header and soft scroll to return to the top of the screen
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+n/a
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Thanks to my breakout room partners, Shehab and Kai, and the instructional staff for all their help and support!
