@@ -1,5 +1,5 @@
 // || CONSTANTS
-const APIKEY = "x"; //enter your own API key here
+const APIKEY = "2eac981b3b1dc1af9cb9ec31dad33dd5"; //enter your own API key here
 const LANGUAGE = "en-US";
 
 // || OTHER VARIABLES
