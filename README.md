@@ -40,7 +40,7 @@ Deployed Application (optional): [Flixster Deployed Site](https://amantinar.gith
 
 ### Walkthrough Video
 
-<img src="https://imgur.com/uCNyuhH"/>
+<img src="https://i.imgur.com/uCNyuhH.png"/>
 [![Project1: Flixster](https://imgur.com/uCNyuhH)](https://www.youtube.com/watch?v=M2j20ECYZEU "Project 1: Flixster")
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/uCNyuhH" data-context="false" ><a href="//imgur.com/a/uCNyuhH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
